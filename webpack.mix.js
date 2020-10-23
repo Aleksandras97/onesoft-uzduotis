@@ -1,5 +1,7 @@
 const mix = require('laravel-mix');
-
+const $  = require( 'jquery' );
+const dt = require( 'datatables.net' )();
+const buttons = require( 'datatables.net-buttons' )();
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management

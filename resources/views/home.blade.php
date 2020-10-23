@@ -7,14 +7,15 @@
             <div class="card">
                 <div class="card-header">{{ __('Dashboard') }}</div>
 
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
+                    <table class="table border" id="myTable">
+                        <thead>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Website</th>
+                        </thead>
 
-                    {{ __('You are logged in!') }}
+                    </table>
+
                 </div>
             </div>
         </div>
